@@ -1,5 +1,5 @@
 #!/bin/bash
-adduser --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password -m jungle
+adduser --gecos "First Last,RoomNumber,WorkPhone,HomePhone" --disabled-password jungle
 usermod -aG sudo jungle
 # echo "jungle:5d991220a07e65eb7ab854341691ca7d" | chpasswd
 mkdir -p /home/jungle/.ssh
